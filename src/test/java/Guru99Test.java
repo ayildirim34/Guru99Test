@@ -15,11 +15,16 @@ public class Guru99Test {
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.get("https://demo.guru99.com/insurance/v1/register.php");
+        driver.get(" https://demo.guru99.com/insurance/v1/index.php");
         Thread.sleep(1000);
         Guru99Page page = new Guru99Page(driver);
        driver.switchTo().frame(6);
         page.accept.click();
+        page.guru99_Email.click();
+        page.guru99_Email.sendKeys("aaa@email.com");
+        page.guru99_password.click();
+        page.guru99_password.sendKeys("123456");
+        page.guru99_login.click();
     }
 
     @Test
@@ -93,14 +98,10 @@ public class Guru99Test {
         Thread.sleep(1000);
 
         page.passwordconfirm.click();
-<<<<<<< HEAD
-       // page.passwordconfirm.sendKeys("123456"+ Keys.ENTER);
-=======
 
-        // deneme mustafa
-       // page.passwordconfirm.sendKeys("12345"+ Keys.ENTER);
->>>>>>> 6d4e53975048fc7fcd5a0112a09b7bd60db31542
-        //page.onay.click();
+        page.passwordconfirm.sendKeys("123456"+ Keys.ENTER);
+
+        page.onay.click();
 
 
     }
