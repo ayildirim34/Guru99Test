@@ -94,7 +94,7 @@ public class Guru99Test {
 
         page.passwordconfirm.click();
 
-        // deneme mustafa
+        // deneme mustafa2
        // page.passwordconfirm.sendKeys("12345"+ Keys.ENTER);
         //page.onay.click();
         //yeni calisma ahmet
