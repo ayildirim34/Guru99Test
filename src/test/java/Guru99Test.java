@@ -93,7 +93,13 @@ public class Guru99Test {
         Thread.sleep(1000);
 
         page.passwordconfirm.click();
+<<<<<<< HEAD
        // page.passwordconfirm.sendKeys("123456"+ Keys.ENTER);
+=======
+
+        // deneme mustafa
+       // page.passwordconfirm.sendKeys("12345"+ Keys.ENTER);
+>>>>>>> 6d4e53975048fc7fcd5a0112a09b7bd60db31542
         //page.onay.click();
 
 
