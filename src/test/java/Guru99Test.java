@@ -95,5 +95,7 @@ public class Guru99Test {
         page.passwordconfirm.click();
        // page.passwordconfirm.sendKeys("12345"+ Keys.ENTER);
         //page.onay.click();
+        //yeni calisma ahmet
+
     }
 }
