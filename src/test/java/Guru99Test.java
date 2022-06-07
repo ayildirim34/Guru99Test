@@ -89,7 +89,7 @@ public class Guru99Test {
         Thread.sleep(1000);
 
         page.password.click();
-        page.password.sendKeys("12345");
+        page.password.sendKeys("123456");
         Thread.sleep(1000);
 
         page.passwordconfirm.click();
